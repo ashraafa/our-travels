@@ -6,6 +6,8 @@ h1 {
 
 body {
     font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 /* Headings and Logo */
@@ -14,11 +16,43 @@ h1 {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     color: #080300;
-    font-size: 300%;
     letter-spacing: 2.5px;
 }
 
-.logo {
+#logo {
     float: left;
+    margin-left: 50px;
+    font-size: 2.5rem;
+    line-height: 100px;
 }
 
+#menu {
+    float: right;
+    margin-right: 50px;
+    font-size: 1.25rem;
+
+}
+
+#menu, #logo {
+    line-height: 50px;
+}
+
+#menu li {
+    list-style-type: none;
+    float: left;
+    padding: 10px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #080300;
+    color: green;
+}
+
+#active-page {
+    color: red;
+}
