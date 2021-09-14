@@ -4,3 +4,21 @@ h1 {
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Headings and Logo */
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: #080300;
+    font-size: 300%;
+    letter-spacing: 2.5px;
+}
+
+.logo {
+    float: left;
+}
+
