@@ -1,7 +1,11 @@
 @import url(@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
-h1 {
+
+h1, h2, h3 {
     font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: #080300;
+    letter-spacing: 2.5px;
 }
 
 body {
@@ -12,12 +16,6 @@ body {
 
 /* Headings and Logo */
 
-h1 {
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
-    color: #080300;
-    letter-spacing: 2.5px;
-}
 
 #logo {
     float: left;
@@ -83,5 +81,17 @@ h1 {
     height: 100%;
     background: url(../images/circle-image_2.JPG) no-repeat center;
     border-radius: 50%;
+}
 
+/* About Us */
+
+#about-us-container {
+    text-align:center;
+    margin: 0 50px 0 50px;
+}
+
+#about-us-bg {
+    height: 200px;
+    width: 100%;
+    clear: both;
 }
