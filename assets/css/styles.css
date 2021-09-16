@@ -103,7 +103,10 @@ body {
 /* Our Reasons for Travel */
 
 #reason-container {
-
+    height: 350px;
+}
+#reason-container p {
+    font-style: italic;
 }
 
 #left-reason {
@@ -112,6 +115,7 @@ body {
     margin-left: 50px;
     float: left;
     padding: 5px;
+    text-align: justify;
 }
 
 #right-reason {
@@ -120,6 +124,7 @@ body {
     float: right;
     margin-right: 50px;
     padding: 5px;
+    text-align: justify;
 }
 
 #center-reason {
@@ -127,4 +132,5 @@ body {
     height: 200px;
     margin: auto;
     padding: 5px;
+    text-align: justify;
 }
