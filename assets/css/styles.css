@@ -3,9 +3,11 @@
 
 h1,
 h2,
-h3 {
+h3,
+h5 {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
+    text-align: center;
     color: #080300;
     letter-spacing: 2.5px;
 }
@@ -177,24 +179,17 @@ body {
     height: 75px;
 }
 
-#footer h5 {
-    text-align: center;
-    padding: 0;
-    margin: 10px 0 0 0;
-}
-
 #social-footer {
     text-align: center;
-    margin: 10px;
-
 }
 
 #social-footer li {
-    display: inline;
+    display: inline; 
 }
 
 #social-footer i {
     font-size: 200%;
-    padding: 0 10% 0 10%;
+    padding: 0 10% 0 5%;
+    margin-bottom: 20px;
     color: #3a3a3a;
 }
