@@ -262,7 +262,7 @@ body {
 #form-container {
     clear: both;
     height: 600px;
-    background: url(/assets/images/scenery-venice_gondola.jpeg) no-repeat center;
+    background: url(assets/images/scenery-venice_gondola.jpeg) no-repeat center;
     background-size: cover;
     opacity: 0.8;
 }
