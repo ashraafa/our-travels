@@ -34,10 +34,21 @@
     </header>
 
     <section>
-       <h2>Contact Us</h2>
-       <form>
-        Details form
-       </form>
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="full_name" required> 
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email_address" required>
+            <h3>Reason for Contact</h3>
+            <label for="feedback">Website Feedback</label>
+            <input type="radio" id="feedback" name="contact_reason" required>
+            <label for="travel">Travel Tips</label>
+            <input type="radio" id="travel" name="contact_reason">
+            <label for="other">Other</label>
+            <input type="radio" id="other" name="contact_reason">
+            <input type="submit" value="Submit Form">
+        </form>
     </section>
 
     <footer>
