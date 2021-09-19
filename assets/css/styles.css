@@ -232,3 +232,10 @@ body {
     height: 100%;
 }
 
+#island-inspirations figcaption {
+    position: absolute;
+    top: 310px;
+    text-transform: uppercase;
+    
+}
+
