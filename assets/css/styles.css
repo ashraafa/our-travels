@@ -184,7 +184,7 @@ body {
 }
 
 #social-footer li {
-    display: inline; 
+    display: inline;
 }
 
 #social-footer i {
@@ -228,7 +228,7 @@ body {
 #video-thailand iframe {
     position: absolute;
     top: 0;
-    left: 0; 
+    left: 0;
     width: 100%;
     height: 100%;
 }
@@ -237,22 +237,41 @@ body {
     position: absolute;
     top: 310px;
     text-transform: uppercase;
-    
+
 }
 
 /* Scenery Inspirations */
 
 #scenery-inspirations {
     clear: both;
-    
+
 }
 
 .image-container {
     clear: both;
     column-count: 3;
-    column-gap: 5px; 
+    column-gap: 5px;
 }
 
 .image-container img {
     width: 100%;
+}
+
+/* Contact Us */
+
+#form-container {
+    clear: both;
+    height: 600px;
+}
+
+#form-details {
+    position: relative;
+    top: 10%;
+    left: 35%;
+    width: 30%;
+    height: 50%;
+    background-color: red;
+    color: white;
+
+
 }
