@@ -247,12 +247,12 @@ body {
     
 }
 
-#image-container {
+.image-container {
     clear: both;
     column-count: 3;
     column-gap: 5px; 
 }
 
-#image-container img {
+.image-container img {
     width: 100%;
 }
