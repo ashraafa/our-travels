@@ -193,3 +193,42 @@ body {
     margin-bottom: 20px;
     color: #3a3a3a;
 }
+
+/* Inspirations */
+
+#island-inspirations {
+    clear: both;
+}
+
+#video-maldives {
+    float: left;
+    position: relative;
+    width: 40%;
+    height: 300px;
+    margin-left: 50px;
+}
+
+#video-maldives iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#video-thailand {
+    float: right;
+    position: relative;
+    width: 40%;
+    height: 300px;
+    margin-right: 50px;
+}
+
+#video-thailand iframe {
+    position: absolute;
+    top: 0;
+    left: 0; 
+    width: 100%;
+    height: 100%;
+}
+
