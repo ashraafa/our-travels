@@ -194,10 +194,11 @@ body {
     color: #3a3a3a;
 }
 
-/* Inspirations */
+/* Island Inspirations */
 
 #island-inspirations {
     clear: both;
+    height: 400px;
 }
 
 #video-maldives {
@@ -239,3 +240,19 @@ body {
     
 }
 
+/* Scenery Inspirations */
+
+#scenery-inspirations {
+    clear: both;
+    
+}
+
+#image-container {
+    clear: both;
+    column-count: 3;
+    column-gap: 5px; 
+}
+
+#image-container img {
+    width: 100%;
+}
