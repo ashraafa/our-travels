@@ -179,9 +179,18 @@ body {
 
 /* Footer */
 
+#content-container {
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 6.25rem;
+}
+
 #footer {
-    height: 4.375rem;
+    height: 6.25rem;
+    width: 100%;
     background-color: #f0c808;
+    position: absolute;
+    bottom: 0;
 }
 
 #footer h5 {

@@ -13,68 +13,72 @@
 </head>
 
 <body>
-    <header id="header-bg">
-        <a href="index.html">
-            <h1 id="logo">Our Travels</h1>
-        </a>
+    <div id="content-container">
+        <header id="header-bg">
+            <a href="index.html">
+                <h1 id="logo">Our Travels</h1>
+            </a>
 
-        <div id="menu">
-            <nav>
-                <ul>
+            <div id="menu">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html">About Us</a>
+                        </li>
+                        <li>
+                            <a href="inspirations.html">Inspirations</a>
+                        </li>
+                        <li id="active-page">
+                            <a href="contact_us.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section id="form-container">
+            <h2>Contact Us</h2>
+            <form id="form-details">
+                <label for="name">Full Name</label>
+                <input id="form-input" type="text" id="name" name="full_name" required>
+                <label for="email">Email</label>
+                <input id="form-input" type="email" id="email" name="email_address" required>
+                <h3>Reason for Contact</h3>
+                <label for="feedback">Website Feedback</label>
+                <input type="radio" id="feedback" name="contact_reason" required>
+                <label for="travel">Travel Tips</label>
+                <input type="radio" id="travel" name="contact_reason">
+                <label for="other">Other</label>
+                <input type="radio" id="other" name="contact_reason">
+                <textarea id="comments" name="form_comments" placeholder="Enter your message here..."></textarea>
+                <input type="submit" value="Submit Form">
+            </form>
+        </section>
+
+        <footer>
+            <div id="footer">
+                <h5>Follow Us</h5>
+                <ul id="social-footer">
                     <li>
-                        <a href="index.html">About Us</a>
+                        <a href="https://facebook.com" target="_blank" rel="noopener"
+                            aria-label="Visit our Facebook page (opens in a new tab)"><i
+                                class="fab fa-facebook"></i></a>
                     </li>
                     <li>
-                        <a href="inspirations.html">Inspirations</a>
+                        <a href="https://youtube.com" target="_blank" rel="noopener"
+                            aria-label="Visit our YouTube channel (opens in a new tab)"><i
+                                class="fab fa-youtube"></i></a>
                     </li>
-                    <li id="active-page">
-                        <a href="contact_us.html">Contact Us</a>
+                    <li>
+                        <a href="https://instagram.com" target="_blank" rel="noopener"
+                            aria-label="Visit our Instagram page (opens in a new tab)"><i
+                                class="fab fa-instagram"></i></a>
                     </li>
                 </ul>
-            </nav>
-        </div>
-    </header>
+            </div>
 
-    <section id="form-container">
-        <h2>Contact Us</h2>
-        <form id="form-details">
-            <label for="name">Full Name</label>
-            <input id="form-input" type="text" id="name" name="full_name" required> 
-            <label for="email">Email</label>
-            <input id="form-input" type="email" id="email" name="email_address" required>
-            <h3>Reason for Contact</h3>
-            <label for="feedback">Website Feedback</label>
-            <input type="radio" id="feedback" name="contact_reason" required>
-            <label for="travel">Travel Tips</label>
-            <input type="radio" id="travel" name="contact_reason">
-            <label for="other">Other</label>
-            <input type="radio" id="other" name="contact_reason">
-            <textarea id="comments" name="form_comments" placeholder="Enter your message here..."></textarea>
-            <input type="submit" value="Submit Form">
-        </form>
-    </section>
-
-    <footer>
-        <div id="footer">
-            <h5>Follow Us</h5>
-            <ul id="social-footer">
-                <li>
-                    <a href="https://facebook.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
-                </li>
-                <li>
-                    <a href="https://youtube.com" target="_blank" rel="noopener"
-                        aria-label="Visit our YouTube channel (opens in a new tab)"><i class="fab fa-youtube"></i></a>
-                </li>
-                <li>
-                    <a href="https://instagram.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
-                </li>
-            </ul>
-        </div>
-
-    </footer>
-
+        </footer>
+    </div>
 
 </body>
 
