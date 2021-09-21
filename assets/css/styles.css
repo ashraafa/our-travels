@@ -1,19 +1,18 @@
-@import url(@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Roboto&display=swap');
 
 h1,
 h2,
-h3,
+h3, 
 h5 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Abhaya Libre', serif;
     text-transform: uppercase;
     text-align: center;
-    color: #080300;
-    letter-spacing: 2.5px;
+    color: #100108;
+    letter-spacing: 0.250rem;
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -24,26 +23,31 @@ body {
 
 /* Headings and Logo */
 
+#header-bg {
+    height: 12vh;
+    width: 100%;
+    background-color: #f0c808;
+}
 
 #logo {
     float: left;
-    margin: 10px 0 0 50px;
+    margin: 0.8rem 0 0 1.5em;
     font-size: 2.5rem;
-    line-height: 50px;
 }
 
 #menu {
     float: right;
-    margin-right: 50px;
+    margin-right: 3em;
     font-size: 1.25rem;
-    line-height: 20px;
+    font-family: 'Abhaya Libre', serif;
+    letter-spacing: 0.1rem;
 
 }
 
 #menu li {
     list-style-type: none;
     float: left;
-    padding: 10px;
+    padding: 0.5rem;
 }
 
 #menu a {
@@ -52,12 +56,11 @@ body {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #080300;
-    color: green;
+    color: rgb(255, 255, 255, 0.8)
 }
 
 #active-page {
-    color: red;
+    border-bottom: 2px solid #080300;
 }
 
 /* Hero and Circle Image */
@@ -286,6 +289,7 @@ body {
     border: 1px solid black;
     border-radius: 10px;
 }
+
 #form-details h3 {
     text-align: left;
     color: white;
@@ -314,6 +318,5 @@ body {
     padding: 2%;
     background-color: red;
     color: white;
-    
-}
 
+}
