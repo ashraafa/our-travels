@@ -180,7 +180,12 @@ body {
 /* Footer */
 
 #footer {
-    height: 75px;
+    height: 4.375rem;
+    background-color: #f0c808;
+}
+
+#footer h5 {
+    margin: 0
 }
 
 #social-footer {
@@ -193,9 +198,8 @@ body {
 
 #social-footer i {
     font-size: 200%;
-    padding: 0 10% 0 5%;
-    margin-bottom: 20px;
-    color: #3a3a3a;
+    padding: 0 4.5rem 0 2rem;
+    color: #100108;
 }
 
 /* Island Inspirations */
