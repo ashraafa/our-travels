@@ -97,7 +97,7 @@ body {
     transform: translate(-50%, -98%);
     background-color: white;
     border-radius: 50%;
-    padding: 1.5rem;
+    padding: 1rem;
 }
 
 #circle-image {
@@ -133,7 +133,7 @@ body {
 }
 
 #about-us-bg {
-    height: 15.625rem;
+    height: 27.5rem;
     width: 100%;
     object-fit: cover;
     clear: both;
