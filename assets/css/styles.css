@@ -1,20 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Roboto&display=swap');
 
+/* General Styling */
+
 h1,
 h2,
-h3, 
+h3,
 h5 {
     font-family: 'Abhaya Libre', serif;
     text-transform: uppercase;
     text-align: center;
     color: #100108;
     letter-spacing: 0.250rem;
+    padding-bottom: 0.5rem;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
+}
+
+/* General Classes */
+
+.section-padding {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
 }
 
 .header-center {
@@ -87,7 +97,7 @@ body {
     transform: translate(-50%, -98%);
     background-color: white;
     border-radius: 50%;
-    padding: 0.5rem;
+    padding: 1.5rem;
 }
 
 #circle-image {
@@ -100,14 +110,34 @@ body {
 /* About Us */
 
 #about-us-container {
-    text-align: center;
-    margin: 0 50px 0 50px;
+    width: 100%;
 }
 
+#about-us-container h2 {
+    margin:auto;
+    font-size: 2rem;
+}
+#about-us-container p {
+    text-align: center;
+    font-style: italic;
+    margin: 20px 150px 20px 150px;
+}
+
+#about-us-container a {
+    text-decoration: underline;
+    color: inherit;
+}
+
+#about-us-container a:hover {
+    color: #f0c808;
+
 #about-us-bg {
-    height: 200px;
+    height: 15.625rem;
     width: 100%;
+    object-fit: cover;
     clear: both;
+    opacity: 2;
+    padding-top: 1rem
 }
 
 /* Our Reasons for Travel */
