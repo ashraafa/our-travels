@@ -120,12 +120,18 @@ body {
 #about-us-container p {
     text-align: center;
     font-style: italic;
+    font-weight: 600;
     margin: 1.25rem 9.375rem 1.25rem 9.375rem;
+}
+
+#about-us-container span {
+    color:#880044;
 }
 
 #about-us-container a {
     text-decoration: underline;
     color: inherit;
+    font-weight: bold;
 }
 
 #about-us-container a:hover {
