@@ -120,7 +120,7 @@ body {
 #about-us-container p {
     text-align: center;
     font-style: italic;
-    margin: 20px 150px 20px 150px;
+    margin: 1.25rem 9.375rem 1.25rem 9.375rem;
 }
 
 #about-us-container a {
@@ -130,6 +130,7 @@ body {
 
 #about-us-container a:hover {
     color: #f0c808;
+}
 
 #about-us-bg {
     height: 15.625rem;
