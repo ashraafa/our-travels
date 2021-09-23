@@ -114,9 +114,9 @@ body {
 }
 
 #about-us-container p {
-    text-align: center;
+    text-align: justify;
     font-style: italic;
-    margin: 1.25rem 9.375rem 1.25rem 9.375rem;
+    margin: 1.25rem 15.625rem 1.25rem 15.625rem;
 }
 
 #about-us-container span {
@@ -147,7 +147,7 @@ body {
 /* Our Reasons for Travel */
 
 #reason-container {
-    height: 21.875rem;
+    height: 25rem;
     background-color: #F1ECCE;
 }
 
@@ -158,6 +158,8 @@ body {
 
 #reason-container span {
     font-weight: bold;
+    position: relative;
+
 }
 
 #reason-container h3 {
@@ -168,24 +170,24 @@ body {
 }
 
 #left-reason {
-    width: 25%;
+    width: 20%;
     height: auto;
-    margin-left: 3.125rem;
+    margin-left: 10rem;
     float: left;
     padding: 0.4rem;
     
 }
 
 #right-reason {
-    width: 25%;
+    width: 20%;
     height: auto;
     float: right;
-    margin-right: 3.125rem;
+    margin-right: 10rem;
     padding: 0.4rem;
 }
 
 #center-reason {
-    width: 25%;
+    width: 20%;
     height: auto;
     margin: auto;
     padding: 0.4rem;
@@ -216,7 +218,7 @@ body {
 #video-paragraph {
     float: right;
     width: 20%;
-    margin: 6rem 3.125rem 0 2rem;
+    margin: 6rem 6.25rem 0 0;
     padding: 2rem;
 }
 
