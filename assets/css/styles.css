@@ -158,8 +158,6 @@ body {
 
 #reason-container span {
     font-weight: bold;
-    position: relative;
-
 }
 
 #reason-container h3 {
@@ -197,7 +195,7 @@ body {
 /* Last Place Visited */
 
 #last-visited-container {
-    background-color: #8a95a5;
+    background: linear-gradient(#f0c808, #8a95a5);
 }
 
 #video-container {
@@ -273,16 +271,15 @@ body {
 /* Island Inspirations */
 
 #island-inspirations {
-    clear: both;
-    height: 400px;
+    height: 25rem;
 }
 
 #video-maldives {
     float: left;
     position: relative;
     width: 40%;
-    height: 300px;
-    margin-left: 50px;
+    height: 20rem;
+    margin-left: 3.125rem;
 }
 
 #video-maldives iframe {
@@ -297,8 +294,8 @@ body {
     float: right;
     position: relative;
     width: 40%;
-    height: 300px;
-    margin-right: 50px;
+    height: 20rem;
+    margin-right: 3.125rem;
 }
 
 #video-thailand iframe {
@@ -311,7 +308,7 @@ body {
 
 #island-inspirations figcaption {
     position: absolute;
-    top: 310px;
+    top: 20rem;
     text-transform: uppercase;
 }
 
