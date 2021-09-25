@@ -83,13 +83,14 @@ body {
     width: 100%;
     height: 34.375rem;
     position: relative;
+    
 }
 
 #hero-image {
     width: 100%;
     height: 80%;
     background: url(../images/hero-image_3.jpeg) no-repeat center;
-    background-size: cover;
+    object-fit: cover;
 }
 
 #circle-container {
@@ -275,14 +276,15 @@ body {
 /* Island Inspirations */
 
 #island-inspirations {
-    height: 25rem;
+    height: 37rem;
+    background-color: RGBA(0, 0, 0, 0.2);
 }
 
 #video-maldives {
     float: left;
     position: relative;
-    width: 40%;
-    height: 20rem;
+    width: 50rem;
+    height: 28.125rem;
     margin-left: 3.125rem;
 }
 
@@ -297,8 +299,8 @@ body {
 #video-thailand {
     float: right;
     position: relative;
-    width: 40%;
-    height: 20rem;
+    width: 50rem;
+    height: 28.125rem;
     margin-right: 3.125rem;
 }
 
@@ -312,7 +314,7 @@ body {
 
 #island-inspirations figcaption {
     position: absolute;
-    top: 20rem;
+    top: 29rem;
     text-transform: uppercase;
 }
 
