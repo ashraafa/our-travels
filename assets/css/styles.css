@@ -450,7 +450,7 @@ h5 {
 }
 
 p {
-    font-size: 0.5rem;
+    font-size: 1rem;
 }
 
 /* General Classes */
@@ -461,13 +461,12 @@ p {
 
 .header-style h2 {
     margin: auto;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
     /* Headings and Logo */
 
     #header-bg {
-        height: 3.5rem;
         position: fixed;
         top: 0;
         z-index: 10;
@@ -475,15 +474,16 @@ p {
 
     #logo {
         float: left;
-        margin: 0.8rem 0 0 0.5rem;
-        font-size: 1rem;
+        margin: 0.8rem 0 0 1rem;
+        font-size: 1.5rem;
     }
 
     #menu {
         float: none;
-        margin: 0 0 0 0.3rem;
-        font-size: 0.5rem;
+        margin: 0 0 0 0.8rem;
+        font-size: 1rem;
         font-family: 'Abhaya Libre', serif;
+        letter-spacing: 0.12rem;
         clear: left;
 
     }
@@ -523,7 +523,7 @@ p {
 #about-us-container p {
     text-align: justify;
     font-style: italic;
-    margin: 1.25rem 4rem 1.25rem 4rem;
+    margin: 1rem 4rem 1rem 4rem;
 }
 
 
