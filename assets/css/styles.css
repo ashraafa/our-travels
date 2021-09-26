@@ -447,6 +447,7 @@ h2,
 h3,
 h5 {
     padding-bottom: 0.3rem;
+    letter-spacing: 0.5rem;
 }
 
 p {
@@ -460,7 +461,7 @@ p {
 }
 
 .header-style h2 {
-    margin: auto;
+    margin: 0.2rem;
     font-size: 1.5rem;
 }
 
@@ -526,6 +527,36 @@ p {
     margin: 1rem 4rem 1rem 4rem;
 }
 
+/* Our Reasons for Travel */
+
+#reason-container {
+    height: 54rem;
+}
+
+#reason-container h3 {
+    margin: 0;
+}
+
+#left-reason {
+    clear: both;
+    width: 80%;
+    margin: 1rem 2rem 0 2rem;
+
+}
+
+#right-reason {
+    clear: both;
+    width: 80%;
+    margin: 0 2rem;
+
+}
+
+#center-reason {
+    clear:both;
+    width: 80%;
+    margin: 0 2rem;
+
+}
 
 
 }
