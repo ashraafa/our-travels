@@ -530,11 +530,12 @@ p {
 /* Our Reasons for Travel */
 
 #reason-container {
-    height: 54rem;
+    height:auto;
 }
 
 #reason-container h3 {
     margin: 0;
+    letter-spacing: 0.2rem;
 }
 
 #left-reason {
@@ -568,10 +569,11 @@ p {
 
 #video-paragraph {
     float:none;
-    width: 90%;
-    margin: 0 1rem;
+    width: 80%;
+    margin: auto;
     padding: 0.5rem;
     letter-spacing: 0.2rem;
+    display: block;
 }
 
 /* Footer */
