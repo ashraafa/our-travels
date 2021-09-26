@@ -558,5 +558,20 @@ p {
 
 }
 
+/* Last Place Visited */
+
+#video-container {
+    width: 21.2rem;
+    height: 11.91rem;
+    margin: 1rem;
+}
+
+#video-paragraph {
+    float:none;
+    width: 90%;
+    margin: 0 1rem;
+    padding: 0.5rem;
+}
+
 
 }
