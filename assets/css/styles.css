@@ -626,425 +626,7 @@ textarea:focus {
     }
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 680px) and (orientation: portrait) {
-
-    /* General Styling */
-
-    h1,
-    h2,
-    h3,
-    h5 {
-        padding-bottom: 0.3rem;
-        letter-spacing: 0.5rem;
-    }
-
-    p {
-        font-size: 1rem;
-    }
-
-    /* General Classes */
-
-    .section-padding {
-        padding-top: 1rem;
-    }
-
-    .header-style h2 {
-        margin: 0.2rem;
-        font-size: 1.5rem;
-    }
-
-    /* Headings and Menu */
-
-    #header-bg {
-        position: fixed;
-        top: 0;
-        z-index: 10;
-    }
-
-    #logo {
-        float: left;
-        margin: 0.8rem 0 0 1rem;
-        font-size: 1.5rem;
-    }
-
-    #menu {
-        float: none;
-        margin: 0 0 0 0.5rem;
-        font-size: 1rem;
-        font-family: 'Abhaya Libre', serif;
-        letter-spacing: 0.12rem;
-        clear: left;
-
-    }
-
-    #menu ul {
-        padding: 0;
-    }
-
-    #active-page {
-        border-bottom: 1px solid #080300;
-    }
-
-    #menu li {
-        padding: 0 0.2rem 0.2rem 0.2rem;
-    }
-
-
-    /* Hero and Circle Image */
-
-    #hero-container {
-        margin-top: 3.5rem;
-
-    }
-
-    #circle-container {
-        height: 10rem;
-        width: 10rem;
-        padding: 0.5rem;
-    }
-
-    #circle-image {
-        background-size: cover;
-
-    }
-
-    /* About Us */
-
-    #about-us-container p {
-        text-align: justify;
-        font-style: italic;
-        margin: 1rem 4rem 1rem 4rem;
-    }
-
-    /* Our Reasons for Travel */
-
-    #reason-container {
-        height: auto;
-    }
-
-    #reason-container h3 {
-        margin: 0;
-        letter-spacing: 0.2rem;
-    }
-
-    #left-reason {
-        clear: both;
-        width: 80%;
-        margin: 1rem 2rem 0 2rem;
-
-    }
-
-    #right-reason {
-        clear: both;
-        width: 80%;
-        margin: 0 2rem;
-        float: none;
-
-    }
-
-    #center-reason {
-        clear: both;
-        width: 80%;
-        margin: 0 2rem;
-
-    }
-
-    /* Last Place Visited */
-
-    #video-container {
-        width: 19rem;
-        height: 10.6875rem;
-        margin: auto;
-    }
-
-    #video-paragraph {
-        float: none;
-        width: 80%;
-        margin: auto;
-        padding: 0.5rem;
-        letter-spacing: 0.2rem;
-        display: block;
-    }
-
-    /* Footer */
-
-    #social-footer i {
-        font-size: 200%;
-        padding: 0 4rem 0 0;
-
-    }
-
-    /* Island Inspirations */
-
-    #island-inspirations {
-        height: 35rem;
-        background-color: RGBA(0, 0, 0, 0.2);
-        margin-top: 5rem;
-    }
-
-    #video-maldives {
-        float: none;
-        width: 19rem;
-        height: 10.6875rem;
-        margin: 0 auto;
-    }
-
-
-    #video-thailand {
-        float: none;
-        width: 19rem;
-        height: 10.6875rem;
-        margin: 3rem auto;
-    }
-
-    #island-inspirations figcaption {
-        top: 11.5rem;
-        font-size: 1.2rem;
-    }
-
-    /* Contact Us */
-
-
-    #form-details {
-        margin: 8rem auto;
-        width: 80%;
-        height: auto;
-        padding: 0.5rem;
-        border-radius: 15px;
-    }
-
-    #form-details label {
-        font-size: 1rem;
-    }
-
-    #form-input {
-        font-size: 1rem;
-        width: 95%;
-        margin: 0.5rem auto;
-    }
-
-    #form-details textarea {
-        font-size: 1rem;
-        width: 95%;
-        margin: 0.5rem auto;
-    }
-
-    #form-details input[type=submit] {
-        font-size: 1rem;
-    }
-
-
-
-    @media only screen and (min-device-width: 320px) and (max-device-width: 680px) and (orientation: portrait) {
-
-        /* General Styling */
-
-        h1,
-        h2,
-        h3,
-        h5 {
-            padding-bottom: 0.3rem;
-            letter-spacing: 0.5rem;
-        }
-
-        p {
-            font-size: 1rem;
-        }
-
-        /* General Classes */
-
-        .section-padding {
-            padding-top: 1rem;
-        }
-
-        .header-style h2 {
-            margin: 0.2rem;
-            font-size: 1.5rem;
-        }
-
-        /* Headings and Menu */
-
-        #header-bg {
-            position: fixed;
-            top: 0;
-            z-index: 10;
-        }
-
-        #logo {
-            float: left;
-            margin: 0.8rem 0 0 1rem;
-            font-size: 1.5rem;
-        }
-
-        #menu {
-            float: none;
-            margin: 0 0 0 0.5rem;
-            font-size: 1rem;
-            font-family: 'Abhaya Libre', serif;
-            letter-spacing: 0.12rem;
-            clear: left;
-
-        }
-
-        #menu ul {
-            padding: 0;
-        }
-
-        #active-page {
-            border-bottom: 1px solid #080300;
-        }
-
-        #menu li {
-            padding: 0 0.2rem 0.2rem 0.2rem;
-        }
-
-
-        /* Hero and Circle Image */
-
-        #hero-container {
-            margin-top: 3.5rem;
-
-        }
-
-        #circle-container {
-            height: 10rem;
-            width: 10rem;
-            padding: 0.5rem;
-        }
-
-        #circle-image {
-            background-size: cover;
-
-        }
-
-        /* About Us */
-
-        #about-us-container p {
-            text-align: justify;
-            font-style: italic;
-            margin: 1rem 4rem 1rem 4rem;
-        }
-
-        /* Our Reasons for Travel */
-
-        #reason-container {
-            height: auto;
-        }
-
-        #reason-container h3 {
-            margin: 0;
-            letter-spacing: 0.2rem;
-        }
-
-        #left-reason {
-            clear: both;
-            width: 80%;
-            margin: 1rem 2rem 0 2rem;
-
-        }
-
-        #right-reason {
-            clear: both;
-            width: 80%;
-            margin: 0 2rem;
-            float: none;
-
-        }
-
-        #center-reason {
-            clear: both;
-            width: 80%;
-            margin: 0 2rem;
-
-        }
-
-        /* Last Place Visited */
-
-        #video-container {
-            width: 19rem;
-            height: 10.6875rem;
-            margin: auto;
-        }
-
-        #video-paragraph {
-            float: none;
-            width: 80%;
-            margin: auto;
-            padding: 0.5rem;
-            letter-spacing: 0.2rem;
-            display: block;
-        }
-
-        /* Footer */
-
-        #social-footer i {
-            font-size: 200%;
-            padding: 0 4rem 0 0;
-
-        }
-
-        /* Island Inspirations */
-
-        #island-inspirations {
-            height: 35rem;
-            background-color: RGBA(0, 0, 0, 0.2);
-            margin-top: 5rem;
-        }
-
-        #video-maldives {
-            float: none;
-            width: 19rem;
-            height: 10.6875rem;
-            margin: 0 auto;
-        }
-
-
-        #video-thailand {
-            float: none;
-            width: 19rem;
-            height: 10.6875rem;
-            margin: 3rem auto;
-        }
-
-        #island-inspirations figcaption {
-            top: 11.5rem;
-            font-size: 1.2rem;
-        }
-
-        /* Contact Us */
-
-
-        #form-details {
-            margin: 8rem auto;
-            width: 80%;
-            height: auto;
-            padding: 0.5rem;
-            border-radius: 15px;
-        }
-
-        #form-details label {
-            font-size: 1rem;
-        }
-
-        #form-input {
-            font-size: 1rem;
-            width: 95%;
-            margin: 0.5rem auto;
-        }
-
-        #form-details textarea {
-            font-size: 1rem;
-            width: 95%;
-            margin: 0.5rem auto;
-        }
-
-        #form-details input[type=submit] {
-            font-size: 1rem;
-        }
-
-    }
-
-    @media only screen and (min-device-width: 320px) and (max-device-width: 680px) and (orientation: landscape) {
+    @media only screen and (orientation: landscape) and (min-width: 320px) and (max-width:680px) {
 
         /* General Styling */
 
@@ -1254,11 +836,10 @@ textarea:focus {
 
     }
 
-
-    @media only screen and (min-device-width: 320px) and (max-device-width: 680px) and (orientation: portrait) {
+    @media only screen and (min-width: 320px) and (max-width: 680px) and (orientation: portrait) {
 
         /* General Styling */
-
+    
         h1,
         h2,
         h3,
@@ -1266,36 +847,36 @@ textarea:focus {
             padding-bottom: 0.3rem;
             letter-spacing: 0.5rem;
         }
-
+    
         p {
             font-size: 1rem;
         }
-
+    
         /* General Classes */
-
+    
         .section-padding {
             padding-top: 1rem;
         }
-
+    
         .header-style h2 {
             margin: 0.2rem;
             font-size: 1.5rem;
         }
-
+    
         /* Headings and Menu */
-
+    
         #header-bg {
             position: fixed;
             top: 0;
             z-index: 10;
         }
-
+    
         #logo {
             float: left;
             margin: 0.8rem 0 0 1rem;
             font-size: 1.5rem;
         }
-
+    
         #menu {
             float: none;
             margin: 0 0 0 0.5rem;
@@ -1303,89 +884,89 @@ textarea:focus {
             font-family: 'Abhaya Libre', serif;
             letter-spacing: 0.12rem;
             clear: left;
-
+    
         }
-
+    
         #menu ul {
             padding: 0;
         }
-
+    
         #active-page {
             border-bottom: 1px solid #080300;
         }
-
+    
         #menu li {
             padding: 0 0.2rem 0.2rem 0.2rem;
         }
-
-
+    
+    
         /* Hero and Circle Image */
-
+    
         #hero-container {
             margin-top: 3.5rem;
-
+    
         }
-
+    
         #circle-container {
             height: 10rem;
             width: 10rem;
             padding: 0.5rem;
         }
-
+    
         #circle-image {
             background-size: cover;
-
+    
         }
-
+    
         /* About Us */
-
+    
         #about-us-container p {
             text-align: justify;
             font-style: italic;
             margin: 1rem 4rem 1rem 4rem;
         }
-
+    
         /* Our Reasons for Travel */
-
+    
         #reason-container {
             height: auto;
         }
-
+    
         #reason-container h3 {
             margin: 0;
             letter-spacing: 0.2rem;
         }
-
+    
         #left-reason {
             clear: both;
             width: 80%;
             margin: 1rem 2rem 0 2rem;
-
+    
         }
-
+    
         #right-reason {
             clear: both;
             width: 80%;
             margin: 0 2rem;
             float: none;
-
+    
         }
-
+    
         #center-reason {
             clear: both;
             width: 80%;
             margin: 0 2rem;
-
+    
         }
-
+    
         /* Last Place Visited */
-
+    
         #video-container {
             width: 19rem;
             height: 10.6875rem;
             margin: auto;
         }
-
+    
         #video-paragraph {
             float: none;
             width: 80%;
@@ -1394,46 +975,46 @@ textarea:focus {
             letter-spacing: 0.2rem;
             display: block;
         }
-
+    
         /* Footer */
-
+    
         #social-footer i {
             font-size: 200%;
             padding: 0 4rem 0 0;
-
+    
         }
-
+    
         /* Island Inspirations */
-
+    
         #island-inspirations {
             height: 35rem;
             background-color: RGBA(0, 0, 0, 0.2);
             margin-top: 5rem;
         }
-
+    
         #video-maldives {
             float: none;
             width: 19rem;
             height: 10.6875rem;
             margin: 0 auto;
         }
-
-
+    
+    
         #video-thailand {
             float: none;
             width: 19rem;
             height: 10.6875rem;
             margin: 3rem auto;
         }
-
+    
         #island-inspirations figcaption {
             top: 11.5rem;
             font-size: 1.2rem;
         }
-
+    
         /* Contact Us */
-
-
+    
+    
         #form-details {
             margin: 8rem auto;
             width: 80%;
@@ -1441,29 +1022,27 @@ textarea:focus {
             padding: 0.5rem;
             border-radius: 15px;
         }
-
+    
         #form-details label {
             font-size: 1rem;
         }
-
+    
         #form-input {
             font-size: 1rem;
             width: 95%;
             margin: 0.5rem auto;
         }
-
+    
         #form-details textarea {
             font-size: 1rem;
             width: 95%;
             margin: 0.5rem auto;
         }
-
+    
         #form-details input[type=submit] {
             font-size: 1rem;
         }
-
-    }
-
+    
     @media only screen and (min-device-width: 681px) and (max-device-width: 1024px) and (orientation: portrait) {
 
         /* General Styling */
@@ -1671,3 +1250,4 @@ textarea:focus {
         }
 
     }
+}
