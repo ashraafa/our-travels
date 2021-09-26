@@ -573,5 +573,13 @@ p {
     padding: 0.5rem;
 }
 
+/* Footer */
+
+#social-footer i {
+    font-size: 200%;
+    padding: 0 4rem 0 0;
+
+}
+
 
 }
