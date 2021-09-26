@@ -613,4 +613,37 @@ p {
     font-size: 1.2rem;
 }
 
+/* Contact Us */
+
+/* Contact Us */
+
+#form-details {
+    margin: 8rem auto;
+    width: 80%;
+    height: auto;
+    padding: 0.5rem;
+    border-radius: 15px;
+}
+
+#form-details label {
+    font-size: 1rem;
+}
+
+#form-input {
+    font-size: 1rem;
+    width: 95%;
+    margin: 0.5rem auto;
+}
+
+#form-details textarea {
+    font-size: 1rem;
+    width: 95%;
+    margin: 0.5rem auto;
+}
+
+#form-details input[type=submit] {
+    font-size: 1rem;
+}
+
+
 }
