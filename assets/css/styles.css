@@ -549,6 +549,7 @@ p {
     clear: both;
     width: 80%;
     margin: 0 2rem;
+    float: none;
 
 }
 
@@ -562,9 +563,9 @@ p {
 /* Last Place Visited */
 
 #video-container {
-    width: 21.2rem;
-    height: 11.91rem;
-    margin: 1rem;
+    width: 19rem;
+    height: 10.6875rem;
+    margin: auto;
 }
 
 #video-paragraph {
@@ -584,5 +585,32 @@ p {
 
 }
 
+/* Island Inspirations */
+
+#island-inspirations {
+    height: 35rem;
+    background-color: RGBA(0, 0, 0, 0.2);
+    margin-top: 5rem;
+}
+
+#video-maldives {
+    float: none;
+    width: 19rem;
+    height: 10.6875rem;
+    margin: 0 auto;
+}
+
+
+#video-thailand {
+    float: none;
+    width: 19rem;
+    height: 10.6875rem;
+    margin: 3rem auto;
+}
+
+#island-inspirations figcaption {
+    top: 11.5rem;
+    font-size: 1.2rem;
+}
 
 }
