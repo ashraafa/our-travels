@@ -858,7 +858,7 @@ textarea:focus {
 
     .header-style h2 {
         margin: 1rem;
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     /* Headings and Menu */
@@ -872,12 +872,12 @@ textarea:focus {
     #logo {
         float: left;
         margin: 1.5rem 0 0 1rem;
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 
     #menu {
         margin: 1.2rem 1rem 0 0.8rem;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         font-family: 'Abhaya Libre', serif;
         letter-spacing: 0.12rem;
 
@@ -931,7 +931,7 @@ textarea:focus {
     #reason-container h3 {
         margin: 0;
         letter-spacing: 0.2rem;
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     #left-reason {
@@ -954,8 +954,8 @@ textarea:focus {
     /* Last Place Visited */
 
     #video-container {
-        width: 40rem;
-        height: 22.5rem;
+        width: 50rem;
+        height: 28.125rem;
         margin: auto;
     }
 
@@ -986,21 +986,21 @@ textarea:focus {
 
     #video-maldives {
         float: none;
-        width: 40rem;
-        height: 22.5rem;
+        width: 50rem;
+        height: 28.125rem;
         margin: auto;
     }
 
 
     #video-thailand {
         float: none;
-        width: 40rem;
-        height: 22.5rem;
+        width: 50rem;
+        height: 28.125rem;
         margin: 2rem auto;
     }
 
     #island-inspirations figcaption {
-        top: 22.5rem;
+        top: 21.5rem;
         font-size: 1.2rem;
     }
 
@@ -1037,7 +1037,7 @@ textarea:focus {
 }
 /* Tablet Portrait */
 
-@media only screen and (min-width: 750px) and (orientation: portrait) {
+@media only screen and (min-width: 710px) and (orientation: portrait) {
 
     /* General Styling */
 
@@ -1074,13 +1074,13 @@ textarea:focus {
 
     #logo {
         float: left;
-        margin: 2rem 0 0 1rem;
-        font-size: 1.5rem;
+        margin: 1.8rem 0 0 1rem;
+        font-size: 2rem;
     }
 
     #menu {
         margin: 0.8rem 2rem 0 0.8rem;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         font-family: 'Abhaya Libre', serif;
         letter-spacing: 0.12rem;
     }
@@ -1133,28 +1133,24 @@ textarea:focus {
     #reason-container h3 {
         margin: 0;
         letter-spacing: 0.2rem;
+        font-size: 1rem;
     }
 
     #left-reason {
-        clear: both;
-        width: 50%;
-        margin: auto;
-        float: none;
+        width: 27%;
+        margin: 0 1rem;
 
     }
 
     #right-reason {
-        clear: both;
-        width: 50%;
-        margin: auto;
-        float: none;
+        width: 27%;
+        margin: 0 1rem;
 
     }
 
     #center-reason {
-        clear: both;
-        width: 50%;
-        margin: auto;
+        width: 27%;
+        margin: 0 auto;
     }
 
     /* Last Place Visited */
@@ -1346,6 +1342,7 @@ textarea:focus {
     #reason-container h3 {
         margin: 0;
         letter-spacing: 0.2rem;
+        font-size: 1rem;
     }
 
     #left-reason {
@@ -1671,7 +1668,7 @@ textarea:focus {
 }
 /* Smartphone Portrait */
 
-@media only screen and (min-width: 320px) and (orientation: portrait) {
+@media only screen and (min-width: 320px) and (max-width: 700px) and (orientation: portrait) {
 
     /* General Styling */
 
