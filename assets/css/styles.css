@@ -294,6 +294,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
+    border: none;
 }
 
 #video-thailand {
@@ -310,6 +311,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
+    border: none;
 }
 
 #island-inspirations figcaption {
@@ -319,7 +321,7 @@ body {
     font-size: 1.5rem;
 }
 
-/* Scenery Inspirations */
+/* Scenery and Food Inspirations */
 
 #scenery-inspirations {
     clear: both;
@@ -362,7 +364,7 @@ body {
     font-size: 1.2rem;
 }
 
-#form-input {
+.form-input {
     color: inherit;
     width: 100%;
     height: 1.875rem;
@@ -613,7 +615,7 @@ textarea:focus {
         font-size: 1rem;
     }
 
-    #form-input {
+    .form-input {
         font-size: 1rem;
         margin: 0.5rem auto;
     }
@@ -815,7 +817,7 @@ textarea:focus {
         font-size: 1rem;
     }
 
-    #form-input {
+    .form-input {
         font-size: 1rem;
         width: 95%;
         margin: 0.5rem auto;
@@ -1019,7 +1021,7 @@ textarea:focus {
         font-size: 1rem;
     }
 
-    #form-input {
+    .form-input {
         font-size: 1rem;
         width: 95%;
         margin: 0.5rem auto;
@@ -1225,7 +1227,7 @@ textarea:focus {
         font-size: 1rem;
     }
 
-    #form-input {
+    .form-input {
         font-size: 1rem;
         width: 98%;
         margin: 0.5rem auto;
@@ -1437,7 +1439,7 @@ textarea:focus {
         font-size: 0.8rem;
     }
 
-    #form-input {
+    .form-input {
         font-size: 0.8rem;
         width: 95%;
         margin: 0.5rem auto;
@@ -1650,7 +1652,7 @@ textarea:focus {
         font-size: 0.8rem;
     }
 
-    #form-input {
+    .form-input {
         font-size: 0.8rem;
         width: 95%;
         margin: 0.5rem auto;
@@ -1861,7 +1863,7 @@ textarea:focus {
         font-size: 1rem;
     }
 
-    #form-input {
+    .form-input {
         font-size: 1rem;
         width: 95%;
         margin: 0.5rem auto;
