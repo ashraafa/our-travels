@@ -491,7 +491,7 @@ textarea:focus {
 }
 
 /* Standard Desktop */
-@media only screen and (min-width: 1000px) and (max-width: 1299px) {
+@media only screen and (min-width: 1025px) and (max-width: 1299px) {
 
     /* General Classes */
 
@@ -837,7 +837,7 @@ textarea:focus {
 
 /* Tablet Landscape and Smaller Desktop Screens */
 
-@media only screen and (min-width: 700px) and (orientation: landscape) {
+@media only screen and (min-width: 700px) and (max-width:899px) and (orientation: landscape) {
 
     /* General Styling */
 
@@ -1040,7 +1040,7 @@ textarea:focus {
 }
 /* Tablet Portrait */
 
-@media only screen and (min-width: 710px) and (orientation: portrait) {
+@media only screen and (min-width: 710px) and (max-width: 1024px) {
 
     /* General Styling */
 
