@@ -350,7 +350,7 @@ body {
 
 #food-inspirations {
     background-color: #080300;
-    
+
 }
 
 #food-inspirations h2 {
@@ -419,6 +419,18 @@ textarea:focus {
 #form-details input[type=submit]:hover {
     background-color: white;
     color: black;
+}
+
+/* Thank You */
+
+#thank-you {
+    margin: 15rem auto;
+    width: 50%;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 0.15rem;
 }
 
 /* Media Queries */
@@ -527,7 +539,7 @@ textarea:focus {
 
     /* Headings and Menu */
 
-  
+
 
     #logo {
         margin: 1rem 0 0 3rem;
@@ -758,7 +770,7 @@ textarea:focus {
 
     #center-reason {
         width: 25%;
-        margin:0 auto 0 auto;
+        margin: 0 auto 0 auto;
 
     }
 
@@ -959,7 +971,7 @@ textarea:focus {
 
     #center-reason {
         width: 27%;
-        margin:0 auto 0 auto;
+        margin: 0 auto 0 auto;
 
     }
 
@@ -1045,6 +1057,7 @@ textarea:focus {
     }
 
 }
+
 /* Tablet Portrait */
 
 @media only screen and (min-width: 710px) and (max-width: 1024px) {
@@ -1356,14 +1369,14 @@ textarea:focus {
     #left-reason {
         width: 25%;
         margin: 0 2rem;
-       
+
 
     }
 
     #right-reason {
         width: 25%;
         margin: 0 2rem;
-    
+
 
     }
 
@@ -1670,6 +1683,7 @@ textarea:focus {
     }
 
 }
+
 /* Smartphone Portrait */
 
 @media only screen and (min-width: 320px) and (max-width: 700px) and (orientation: portrait) {
