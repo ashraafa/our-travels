@@ -278,8 +278,16 @@ body {
 /* Island Inspirations */
 
 #island-inspirations {
-    height: 37rem;
-    background-color: RGBA(0, 0, 0, 0.2);
+    height: auto;
+    background-color: #100108;
+    padding-bottom: 3rem;
+    color: white;
+    overflow: hidden;
+}
+
+#island-inspirations h2 {
+    padding: 2rem;
+    color: white;
 }
 
 #video-maldives {
@@ -340,6 +348,15 @@ body {
     width: 100%;
 }
 
+#food-inspirations {
+    background-color: #080300;
+    
+}
+
+#food-inspirations h2 {
+    color: white;
+}
+
 /* Contact Us */
 
 #form-container {
@@ -395,7 +412,7 @@ textarea:focus {
     border-radius: 10px;
     font-size: 1.2rem;
     padding: 0.5rem;
-    background-color: black;
+    background-color: #080300;
     color: white;
 }
 
@@ -469,10 +486,6 @@ textarea:focus {
     }
 
     /* Island Inspirations */
-
-    #island-inspirations {
-        height: 30rem;
-    }
 
     #video-maldives {
         width: 37rem;
@@ -582,10 +595,6 @@ textarea:focus {
     }
 
     /* Island Inspirations */
-
-    #island-inspirations {
-        height: 24rem;
-    }
 
     #video-maldives {
         width: 30rem;
@@ -781,9 +790,7 @@ textarea:focus {
     /* Island Inspirations */
 
     #island-inspirations {
-        height: 23rem;
-        background-color: RGBA(0, 0, 0, 0.2);
-        margin-top: 5rem;
+        margin-top: 2rem;
     }
 
     #video-maldives {
@@ -984,9 +991,7 @@ textarea:focus {
     /* Island Inspirations */
 
     #island-inspirations {
-        height: 53rem;
-        background-color: RGBA(0, 0, 0, 0.2);
-        margin-top: 5rem;
+        margin-top: 2rem;
     }
 
     #video-maldives {
@@ -1186,9 +1191,7 @@ textarea:focus {
     /* Island Inspirations */
 
     #island-inspirations {
-        height: 54rem;
-        background-color: RGBA(0, 0, 0, 0.2);
-        margin-top: 5rem;
+        margin-top: 2rem;
     }
 
     #video-maldives {
@@ -1398,9 +1401,7 @@ textarea:focus {
     /* Island Inspirations */
 
     #island-inspirations {
-        height: 53rem;
-        background-color: RGBA(0, 0, 0, 0.2);
-        margin-top: 5rem;
+        margin-top: 2rem;
     }
 
     #video-maldives {
@@ -1611,9 +1612,7 @@ textarea:focus {
     /* Island Inspirations */
 
     #island-inspirations {
-        height: 43rem;
-        background-color: RGBA(0, 0, 0, 0.2);
-        margin-top: 5rem;
+        margin-top: 2rem;
     }
 
     #video-maldives {
@@ -1825,9 +1824,7 @@ textarea:focus {
     /* Island Inspirations */
 
     #island-inspirations {
-        height: 35rem;
-        background-color: RGBA(0, 0, 0, 0.2);
-        margin-top: 5rem;
+        margin-top: 2rem;
     }
 
     #video-maldives {
