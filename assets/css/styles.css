@@ -5,13 +5,12 @@
 h1,
 h2,
 h3,
-h5 {
+h4 {
     font-family: 'Abhaya Libre', serif;
     text-transform: uppercase;
     text-align: center;
     color: #100108;
     letter-spacing: 0.250rem;
-    padding-bottom: 0.5rem;
 }
 
 p {
@@ -27,12 +26,13 @@ body {
 /* General Classes */
 
 .section-padding {
-    padding-top: 1.5rem;
+    padding-top: 1rem;
 }
 
 .header-style h2 {
-    margin: auto;
     font-size: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 /* Heading and Menu*/
@@ -124,10 +124,6 @@ body {
     margin: 1.25rem 25rem 1.25rem 25rem;
 }
 
-#about-us-container span {
-    color: #880044;
-}
-
 #about-us-container a {
     text-decoration: underline;
     color: inherit;
@@ -152,8 +148,8 @@ body {
 /* Our Reasons for Travel */
 
 #reason-container {
-    height: 28rem;
-    background-color: #F1ECCE;
+    height: auto;
+    background-color: whitesmoke;
 }
 
 #reason-container p {
@@ -166,7 +162,7 @@ body {
 }
 
 #reason-container h3 {
-    background-color: #880044;
+    background-color: #cf8432;
     color: #f7f3f3;
     padding: 1rem;
     font-size: 1.5rem;
@@ -197,11 +193,22 @@ body {
 
 }
 
-/* Last Place Visited */
+/* Last Visited Maps*/
 
 #last-visited-container {
-    background: linear-gradient(#f0c808, #8a95a5);
+    background: whitesmoke;
+    padding-bottom: 3.5rem;
 }
+
+#maps-container iframe {
+    width: 100%;
+    height: 16rem;
+    border: none;
+    display: block;
+}
+
+
+/* Last Visited Video*/
 
 #video-container {
     position: relative;
@@ -232,12 +239,7 @@ body {
     letter-spacing: 0.156rem;
 }
 
-#maps-container iframe {
-    width: 100%;
-    height: 27.5rem;
-    border: none;
-    display: block;
-}
+
 
 /* Footer */
 
@@ -255,7 +257,7 @@ body {
     bottom: 0;
 }
 
-#footer h5 {
+#footer h4 {
     margin: 0
 }
 
