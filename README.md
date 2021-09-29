@@ -7,33 +7,48 @@ Our Travels is a website that aims to inspire people that are seeking inspiratio
 
 The live site can be accessed [here](https://ashraafa.github.io/our-travels/)
 
-![Responsice Mockup](assets/images/amiresponsive.JPG)
+![Responsive Mockup](assets/images/amiresponsive.JPG)
  
 ## Design
 
 - __Color Pallete__
-  - The two main colours used are Code Insititue red, and white.
+    - The two main colours used are Jonquil and Xiketic. 
+    - Jonquil was considered to be the base color which is predominantly seen in the header and footer. 
+    - Xiketic was matched to the base color as the font with highest contrast that complies with Web Content Accessibility Guidelines (WCAG)
+
+      ![Main Colors](assets/images/main-colors.PNG)
 
 - __Typography__
-  -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+    - The Abhaya Libre Google font is used in the headings and menu and has serif as fallback font. It was chosen after reading [30 best Google Fonts for your websites](https://www.justinmind.com/blog/best-google-web-fonts-website/).
+    - Roboto is used in the body and considered to be popular pairing font with Abhaya Libre. The fall back font is sans-serif.
+  
+      ![Google Fonts](assets/images/google-fonts.PNG)
 
 - __Wireframes__
-  -   Home Page Wireframe - [View](https://github.com/)
-  -   Mobile Wireframe - [View](https://github.com/)
-  -   Contact Us Page Wireframe - [View](https://github.com/)
+    - Desktop Wireframe
+        - The desktop wireframe was designed first to structure the layout of the content and media was envisaged.
+
+          ![Desktop Wireframe](assets/images/desktop-wireframe.PNG)
+
+    - Mobile Wireframe
+        - The mobile wireframe considered the layout for smaller display screens.
+
+          ![Mobile Wireframe](assets/images/mobile-wireframe.PNG)
+  
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+This section introduces the features that have been implemented for the website in order to create a seamless experience through quick navigation of content.
 
 ### Existing Features
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - The navigation bar includes the main title (logo) and a page menu to access the 3 main pages.
+  - The logo can be clicked and links the user back to the main content page. This is considered to be best practice as users are accustomed to this behaviour when browsing a website.
+  - The navigation bar is fully responsive and has been fixed at the top for smaller screens. This would allow the user to easily navigate to next page without scrolling back up to the navigation bar.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+    ![Navigation Bar](assets/images/navigation-bar.PNG)
 
 - __The Home Page Image__
 
