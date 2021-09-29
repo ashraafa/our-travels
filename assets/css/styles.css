@@ -290,8 +290,8 @@ body {
 #video-maldives {
     float: left;
     position: relative;
-    width: 50rem;
-    height: 28.125rem;
+    width: 40rem;
+    height: 22.5rem;
     margin-left: 3.125rem;
 }
 
@@ -307,8 +307,8 @@ body {
 #video-thailand {
     float: right;
     position: relative;
-    width: 50rem;
-    height: 28.125rem;
+    width: 40rem;
+    height: 22.5rem;
     margin-right: 3.125rem;
 }
 
