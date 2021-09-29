@@ -138,7 +138,7 @@ In addition, you may also use this section to discuss plans for additional featu
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fashraafa.github.io%2Four-travels%2F).
-  - The warning returned was not fixed as it referred to a missing header tag for the hero image. I did not have text in this section and therefore accepted the warning.
+  - The warnings returned referred to headers that were not added to sections were by design the headers were excluded.
 
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fashraafa.github.io%2Four-travels&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
