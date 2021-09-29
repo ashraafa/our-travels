@@ -54,6 +54,7 @@ This section introduces the features that have been implemented for the website 
 
   - The About Us page contains a hero image of a suitcase and a camera. There is an image of the site owners that is centred towards the bottom of the hero image.
   - The combination of these two images intends to grab the user's attention and provide a sense of comfort and trust by putting human faces to the content they will browse.
+  
     ![Hero Image](assets/images/hero-image.PNG)
 
 - __About Us Section__
