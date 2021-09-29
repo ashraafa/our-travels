@@ -161,8 +161,8 @@ body {
 }
 
 #reason-container h3 {
-    background-color: #cf8432;
-    color: #f7f3f3;
+    background-color: #934C00;
+    color: #ECEFEA;
     padding: 1rem;
     font-size: 1.5rem;
 }
@@ -392,8 +392,8 @@ body {
 #form-details input:focus,
 textarea:focus {
     outline-style: none;
-    border-color: #cf8432;
-    box-shadow: 0 0 10px #cf8432;
+    border-color: #934C00;
+    box-shadow: 0 0 10px #934C00;
 }
 
 #form-details textarea {
