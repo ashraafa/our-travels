@@ -13,165 +13,194 @@ The live site can be accessed [here](https://ashraafa.github.io/our-travels/)
 
 - __Color Pallete__
     - The two main colours used are Jonquil and Xiketic. 
-    - Jonquil was considered to be the base color which is predominantly seen in the header and footer. 
-    - Xiketic was matched to the base color as the font with highest contrast that complies with Web Content Accessibility Guidelines (WCAG)
+    - Jonquil was considered to be the base color which is predominantly seen in the header and footer of the site. 
+    - Xiketic was matched to the base color as the font with highest contrast that complies with Web Content Accessibility Guidelines (WCAG).
 
       ![Main Colors](assets/images/main-colors.PNG)
 
 - __Typography__
-    - The Abhaya Libre Google font is used in the headings and menu and has serif as fallback font. It was chosen after reading [30 best Google Fonts for your websites](https://www.justinmind.com/blog/best-google-web-fonts-website/).
-    - Roboto is used in the body and considered to be popular pairing font with Abhaya Libre. The fall back font is sans-serif.
+    - The Abhaya Libre Google font is used in the headings and menu and has serif as the fallback font. It was chosen after reading [30 best Google Fonts for your websites](https://www.justinmind.com/blog/best-google-web-fonts-website/).
+    - Roboto is used in the body and considered to be popular pairing font with Abhaya Libre. The fallback font is sans-serif.
   
       ![Google Fonts](assets/images/google-fonts.PNG)
 
 - __Wireframes__
     - Desktop Wireframe
-        - The desktop wireframe was designed first to structure the layout of the content and media was envisaged.
+        - The desktop wireframe was designed first to structure the layout of the content and media that was envisaged.
 
           ![Desktop Wireframe](assets/images/desktop-wireframe.PNG)
 
     - Mobile Wireframe
-        - The mobile wireframe considered the layout for smaller display screens.
+        - The mobile wireframe considers the layout for smaller display screens.
 
           ![Mobile Wireframe](assets/images/mobile-wireframe.PNG)
   
 
 ## Features 
 
-This section introduces the features that have been implemented for the website in order to create a seamless experience through quick navigation of content.
+This section introduces the features that have been implemented for the website in order to create a seamless experience through quick navigation of content and the ability to contact the site owners.
 
 ### Existing Features
 
 - __Navigation Bar__
 
   - The navigation bar includes the main title (logo) and a page menu to access the 3 main pages.
-  - The logo can be clicked and links the user back to the main content page. This is considered to be best practice as users are accustomed to this behaviour when browsing a website.
-  - The navigation bar is fully responsive and has been fixed at the top for smaller screens. This would allow the user to easily navigate to next page without scrolling back up to the navigation bar.
+  - The logo links the user back to the main content page. This is considered to be best practice as users are accustomed to this behaviour when browsing websites in general.
+  - The navigation bar is responsive and has been fixed at the top of the screen for smaller devices. This would allow the user to easily navigate to next page without scrolling back up to the navigation bar.
 
     ![Navigation Bar](assets/images/navigation-bar.PNG)
 
-- __The Home Page Image__
+- __The Hero Image__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
-
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+  - The About Us page contains a hero image of a suitcase and a camera. There is an image of the site owners that is centred towards the bottom of the hero image.
+  - The combination of these two images intends to grab the user's attention and provide a sense of comfort and trust by putting human faces to the content they will browse.
+    ![Hero Image](assets/images/hero-image.PNG)
 
 - __About Us Section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - The About Us section contains information about the site owners and how they came about their travelling experiences. There is an image of the infamous Table Mountain in Cape Town, which is the place of birth for the site owners.
+  - The user will get a sense of where their journey began and what their intentions are for building this site.
+  - The About Us content paragraph also draws attention to the Contact Us page where the user can provide feedback or submit a query. 
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+     ![About Us](assets/images/about-us.PNG)
+ 
+ 
+- __Our Reasons For Travel Section__
 
-- __Last Visited Section__
+  - This section shares the top 3 reasons why the site owners travel. Each reason contains a header with an icon that best represents the title.
+  - The reason content is followed by text in bold italics to summarise the content.
+  - The color for the title background was chosen using the color picker tool hovered over the image of Table Mountain due to its close proximity the content. The section background color is whitesmoke to provide a slight visual of the break in sections.
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+     ![About Us](assets/images/our-reasons.PNG)
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+- __Last Place We Visited Section__
+
+  - The Last Visited Section shows the user the last place visited by the site owners. This section will be dynamic and therefore updated with the latest travel destination.
+  - This section includes the name and date of last place visited so that the user can see when and where the last travel destination was. 
+  - Google maps is embedded to show the user the location in relation to the world and allows the user to zoom in and out of the map.
+  - This section also contains a promotional video of the last location visited that aims to inspire travel to the location.
+
+      ![Last Visited Section](assets/images/last-visited.PNG)
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section contains social media links to Facebook, YouTube and Instagram. These links currently take the user to the homepage of each social media site.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+      ![Footer](assets/images/footer.PNG)
 
 - __The Inspirations Page__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - This page contains 3 sections which intends to inspire travel to the user through promotional videos and images taken whilst travelling.
+  - The images and videos intends to provide an immediate reaction for the user whereby they are intrigued and therefore likely to do more research about the location or a raise a query with the site owners.
+  - The three sections are:
+    - Island Travel inspirations
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+       ![Footer](assets/images/island-inspirations.PNG)
+
+    - Scenery Inspirations
+
+       ![Footer](assets/images/scenery-inspirations.PNG)
+
+    - Food Inspirations
+
+       ![Footer](assets/images/food-inspirations.PNG)
 
 - __The Contact Us Page__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - This page provides the user with the ability to provide feedback or raise a query to the site owners.
+  - The input fields has a box shadow highlight color that is activated when the user selects the field. This color was taken from the header of "Our Reasons for Travel" on the About us page.
+  - Basic information like name, email, contact reason and message is requested to allow the site owners to reply to the user.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+    ![Footer](assets/images/contact-us.PNG)
 
 - __The Thank You Page__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - This page provides the user with immediate confirmation that their request has been received.
+  - The message informs the user of an expected response time depending on the site owners availability.
+  - The navigation bar and footer are consistent and allows the user to continue browsing the site or going to one of the site owners social media pages.
+
+    ![Footer](assets/images/thank-you.PNG)
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
-### Features Left to Implement
-
-- __Feature 1__
-
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-
 ## Testing 
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+ - Please see the section that follows for more detail regarding the testing that was completed below:
+   - HTML and CSS code
+   - Accessibility
+   - Mobile responsiveness
+   - Browser compatibility
 
 
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fashraafa.github.io%2Four-travels%2F).
+  - The warning returned was not fixed as it referred to a missing header tag for the hero image. I did not have text in this section and therefore accepted the warning.
+
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fashraafa.github.io%2Four-travels&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
 
-### Unfixed Bugs
+- Accessibility
+  - Scored a minimum of 98% on the Inspirations and Contact Us page with 100% scored on the About Us page. This was due to the footer containing a header not in sequential order.
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+   - About Us
+  
+      ![Footer](assets/images/about-us-lighthouse.PNG)
+
+  - Inspirations
+
+      ![Footer](assets/images/inspirations-lighthouse.PNG)
+
+  - Contact Us
+
+       ![Footer](assets/images/contact-us-lighthouse.PNG)
+
+- Mobile Responsiveness
+  - Minimum screen width for responsive design was done at 320px.
+  - Mobile responsiveness was limited to the "toggle device" feature in Chrome Developer Tools due to lack of access to more physical devices.
+  - Responsive design testing on physical devices were done on an iPhone 8 and iPad (6th Generation).
+
+- Desktop Browser Compatibility
+  - Site was tested in the following browsers:
+     - Microsoft Edge Version 94.0.992.31 (Official build)  (64-bit)
+     - Chrome Version 94.0.4606.61 (Official Build) (64-bit)
+
+### Bugs
+
+There were no known bugs at the time of final deployment. 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+The site was deployed to GitHub pages.
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
-
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
-
+- The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab.
+  - On the left menu list, select Pages.
+  - In the source section drop-down menu, select the Main Branch and click Save.
+  - Upon successful save, the Github Pages section will display a message to indicate that the site is ready to be published at https://ashraafa.github.io/our-travels/.
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
+The following section identifies websites and individuals that supported me whilst building the Our Travels site.
 
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+### Content and Media
 
-### Content 
+- General Guidance 
+  - [Code Institute Course Material](https://learn.codeinstitute.net/)
+  - Reuben Ferrante - Senior Python Developer for his mentorship regarding best industry practices
+  - [Wireframes](https://balsamiq.com/)
+  - [HTML References](https://www.w3schools.com/html/)
+  - [CSS References](https://www.w3schools.com/css/)
+  - [General Challenges with CSS](https://stackoverflow.com/)
+  - [Icons](https://fontawesome.com/)
+  - [Fonts](https://fonts.google.com/)
+  - [Color Pallettes and Contrast Checker](https://coolors.co/)
+  - [Video Ratio Calculator](https://wistia.com/aspect-ratio-calculator)
+  - [PX to EM Conversion](https://www.w3schools.com/tags/ref_pxtoemconversion.asp)
+  - [Images](https://www.pexels.com/)
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
-### Media
-
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
 
 
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
 
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
